@@ -1,0 +1,23 @@
+{
+  "configurations" : [
+    {
+      "id" : "D27EE45B-B1E4-46FD-9273-5FD4F68BAB07",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SchedulerDemo.xcodeproj",
+      "identifier" : "678752DA26C2D55900360BD8",
+      "name" : "SchedulerDemo"
+    }
+  },
+  "testTargets" : [
+
+  ],
+  "version" : 1
+}

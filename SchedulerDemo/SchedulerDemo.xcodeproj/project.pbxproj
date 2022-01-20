@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		678752DF26C2D55900360BD8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678752DE26C2D55900360BD8 /* main.swift */; };
+		67B4A36A2749A4CE00C642C1 /* ReactiveSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 67B4A3692749A4CE00C642C1 /* ReactiveSwift */; };
+		67B88AA12749B07300F26C56 /* ReactiveSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 67B88AA02749B07300F26C56 /* ReactiveSwift */; };
+		67B88AA52749B49400F26C56 /* CombineSchedulers in Frameworks */ = {isa = PBXBuildFile; productRef = 67B88AA42749B49400F26C56 /* CombineSchedulers */; };
+		67B88AA72749B49A00F26C56 /* CombineSchedulers in Frameworks */ = {isa = PBXBuildFile; productRef = 67B88AA62749B49A00F26C56 /* CombineSchedulers */; };
+		67C6D6C827316DAE00FBB686 /* ReactiveScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6D6C727316DAE00FBB686 /* ReactiveScheduler.swift */; };
+		67C6D6CB2731746C00FBB686 /* ReactiveScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6D6C727316DAE00FBB686 /* ReactiveScheduler.swift */; };
+		67C6D6CF273179F800FBB686 /* Delayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6D6CE273179F800FBB686 /* Delayer.swift */; };
+		67C6D6D1273180E200FBB686 /* DelayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6D6D0273180E200FBB686 /* DelayerTests.swift */; };
+		67C6D6D32731824E00FBB686 /* Delayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C6D6CE273179F800FBB686 /* Delayer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		677733D226C310D800FA2A54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 678752D326C2D55900360BD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 678752DA26C2D55900360BD8;
+			remoteInfo = SchedulerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		678752D926C2D55900360BD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		678752DB26C2D55900360BD8 /* SchedulerDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SchedulerDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		678752DE26C2D55900360BD8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		678752E926C2D5B900360BD8 /* SchedulerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedulerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		678752ED26C2D5B900360BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C6D6C727316DAE00FBB686 /* ReactiveScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveScheduler.swift; sourceTree = "<group>"; };
+		67C6D6CE273179F800FBB686 /* Delayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delayer.swift; sourceTree = "<group>"; };
+		67C6D6D0273180E200FBB686 /* DelayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		678752D826C2D55900360BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B88AA72749B49A00F26C56 /* CombineSchedulers in Frameworks */,
+				67B4A36A2749A4CE00C642C1 /* ReactiveSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678752E626C2D5B900360BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B88AA52749B49400F26C56 /* CombineSchedulers in Frameworks */,
+				67B88AA12749B07300F26C56 /* ReactiveSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		675BC5DC27181A6A0007CC06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		678752D226C2D55900360BD8 = {
+			isa = PBXGroup;
+			children = (
+				678752DD26C2D55900360BD8 /* SchedulerDemo */,
+				678752EA26C2D5B900360BD8 /* SchedulerDemoTests */,
+				678752DC26C2D55900360BD8 /* Products */,
+				675BC5DC27181A6A0007CC06 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		678752DC26C2D55900360BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				678752DB26C2D55900360BD8 /* SchedulerDemo */,
+				678752E926C2D5B900360BD8 /* SchedulerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		678752DD26C2D55900360BD8 /* SchedulerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				678752DE26C2D55900360BD8 /* main.swift */,
+				67C6D6C727316DAE00FBB686 /* ReactiveScheduler.swift */,
+				67C6D6CE273179F800FBB686 /* Delayer.swift */,
+			);
+			path = SchedulerDemo;
+			sourceTree = "<group>";
+		};
+		678752EA26C2D5B900360BD8 /* SchedulerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				67C6D6D0273180E200FBB686 /* DelayerTests.swift */,
+				678752ED26C2D5B900360BD8 /* Info.plist */,
+			);
+			path = SchedulerDemoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		678752DA26C2D55900360BD8 /* SchedulerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678752E226C2D55900360BD8 /* Build configuration list for PBXNativeTarget "SchedulerDemo" */;
+			buildPhases = (
+				678752D726C2D55900360BD8 /* Sources */,
+				678752D826C2D55900360BD8 /* Frameworks */,
+				678752D926C2D55900360BD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchedulerDemo;
+			packageProductDependencies = (
+				67B4A3692749A4CE00C642C1 /* ReactiveSwift */,
+				67B88AA62749B49A00F26C56 /* CombineSchedulers */,
+			);
+			productName = SchedulerDemo;
+			productReference = 678752DB26C2D55900360BD8 /* SchedulerDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+		678752E826C2D5B900360BD8 /* SchedulerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 678752EE26C2D5B900360BD8 /* Build configuration list for PBXNativeTarget "SchedulerDemoTests" */;
+			buildPhases = (
+				678752E526C2D5B900360BD8 /* Sources */,
+				678752E626C2D5B900360BD8 /* Frameworks */,
+				678752E726C2D5B900360BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				677733D326C310D800FA2A54 /* PBXTargetDependency */,
+			);
+			name = SchedulerDemoTests;
+			packageProductDependencies = (
+				67B88AA02749B07300F26C56 /* ReactiveSwift */,
+				67B88AA42749B49400F26C56 /* CombineSchedulers */,
+			);
+			productName = SchedulerDemoTests;
+			productReference = 678752E926C2D5B900360BD8 /* SchedulerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		678752D326C2D55900360BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					678752DA26C2D55900360BD8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					678752E826C2D5B900360BD8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 678752D626C2D55900360BD8 /* Build configuration list for PBXProject "SchedulerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 678752D226C2D55900360BD8;
+			packageReferences = (
+				675202392749A2E000DC41A5 /* XCRemoteSwiftPackageReference "combine-schedulers" */,
+				67B4A3682749A4CD00C642C1 /* XCRemoteSwiftPackageReference "ReactiveSwift" */,
+			);
+			productRefGroup = 678752DC26C2D55900360BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				678752DA26C2D55900360BD8 /* SchedulerDemo */,
+				678752E826C2D5B900360BD8 /* SchedulerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		678752E726C2D5B900360BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		678752D726C2D55900360BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678752DF26C2D55900360BD8 /* main.swift in Sources */,
+				67C6D6C827316DAE00FBB686 /* ReactiveScheduler.swift in Sources */,
+				67C6D6CF273179F800FBB686 /* Delayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678752E526C2D5B900360BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C6D6D32731824E00FBB686 /* Delayer.swift in Sources */,
+				67C6D6CB2731746C00FBB686 /* ReactiveScheduler.swift in Sources */,
+				67C6D6D1273180E200FBB686 /* DelayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		677733D326C310D800FA2A54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 678752DA26C2D55900360BD8 /* SchedulerDemo */;
+			targetProxy = 677733D226C310D800FA2A54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		678752E026C2D55900360BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		678752E126C2D55900360BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		678752E326C2D55900360BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenderdel.SchedulerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		678752E426C2D55900360BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenderdel.SchedulerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		678752EF26C2D5B900360BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SchedulerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenderdel.SchedulerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		678752F026C2D5B900360BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SchedulerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenderdel.SchedulerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		678752D626C2D55900360BD8 /* Build configuration list for PBXProject "SchedulerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678752E026C2D55900360BD8 /* Debug */,
+				678752E126C2D55900360BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678752E226C2D55900360BD8 /* Build configuration list for PBXNativeTarget "SchedulerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678752E326C2D55900360BD8 /* Debug */,
+				678752E426C2D55900360BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		678752EE26C2D5B900360BD8 /* Build configuration list for PBXNativeTarget "SchedulerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678752EF26C2D5B900360BD8 /* Debug */,
+				678752F026C2D5B900360BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		675202392749A2E000DC41A5 /* XCRemoteSwiftPackageReference "combine-schedulers" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/combine-schedulers";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.5.3;
+			};
+		};
+		67B4A3682749A4CD00C642C1 /* XCRemoteSwiftPackageReference "ReactiveSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveCocoa/ReactiveSwift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67B4A3692749A4CE00C642C1 /* ReactiveSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67B4A3682749A4CD00C642C1 /* XCRemoteSwiftPackageReference "ReactiveSwift" */;
+			productName = ReactiveSwift;
+		};
+		67B88AA02749B07300F26C56 /* ReactiveSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 67B4A3682749A4CD00C642C1 /* XCRemoteSwiftPackageReference "ReactiveSwift" */;
+			productName = ReactiveSwift;
+		};
+		67B88AA42749B49400F26C56 /* CombineSchedulers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 675202392749A2E000DC41A5 /* XCRemoteSwiftPackageReference "combine-schedulers" */;
+			productName = CombineSchedulers;
+		};
+		67B88AA62749B49A00F26C56 /* CombineSchedulers */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 675202392749A2E000DC41A5 /* XCRemoteSwiftPackageReference "combine-schedulers" */;
+			productName = CombineSchedulers;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 678752D326C2D55900360BD8 /* Project object */;
+}
